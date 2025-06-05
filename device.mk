@@ -118,3 +118,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # CHRE
 $(call soong_config_set,chre,chre_daemon_dsp_library,//vendor/google/walleye:libsdsprpc)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
