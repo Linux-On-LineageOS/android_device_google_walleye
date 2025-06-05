@@ -41,3 +41,4 @@ TARGET_RECOVERY_UI_LIB := \
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_muskie_defconfig
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
